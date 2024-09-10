@@ -1,10 +1,12 @@
-name = "cf-worker-ws" # todo
+name = "server-sg" # todo
 #name = "cf-worker-connect-test" # todo
 #main = "test/worker/cf-cdn-cgi-trace2.js"
 #main = "test/worker/worker-connect-test.js"
 main = "_worker.js"
 compatibility_date = "2023-07-26"
-
+[[routes]]
+pattern = "ava.game.naver.com.sg1.iyin.eu.org"
+custom_domain = true
 [vars]
 UUID = "65590e04-a94c-4c59-a1f2-571bce925aad"
 # PROXYIP = "1.2.3.4"
